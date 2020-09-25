@@ -1,0 +1,12 @@
+<h4 class="card-title">Список заданий</h4>
+<div class="add-items d-flex">
+  <input type="text" class="form-control todo-list-input" placeholder="Добавить запись..." autofocus=""
+         [(ngModel)]="newTodo.title"
+         (keyup.enter)="addTodo()">
+
+  <input type="text" placeholder="Datepicker" [(ngModel)]="newTodo.dueDate" class="form-control" bsDatepicker [bsConfig]="{ isAnimated: true , dateInputFormat: 'DD-MM-YYYY'}">
+
+  <button class="add btn btn-primary font-weight-bold todo-list-add-btn" (click)="addTodo()">Добавить</button>
+</div>
+
+
