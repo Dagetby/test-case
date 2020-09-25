@@ -1,3 +1,26 @@
+# Реализованы методы Golang+Gin+PostgreSQL 
+Библиотеки:
+-"github.com/gin-gonic/gin"
+-"github.com/jinzhu/gorm"
+-"github.com/jinzhu/gorm/dialects/postgres"
+
+Структура проекта:
+  -handler
+    -todo_get.go
+    -todo_post.go
+    -todo_put.go
+    -todo_delete.go
+  -models
+    -model.go 
+  -routers
+    -router.go
+   -go.mod
+    -go.sum
+   main.go 
+
+# Задание:
+
+
 # Тестовое задание для backend-разработчика
 
 Необходимо реализовать API на Golang+Gin+MySQL или PostgreSQL на выбор для ToDo-доски из этого репозитория.
@@ -47,5 +70,4 @@
 ## Build
 
 Для сборки проекта выполнить `ng build` . Собранный дистрибутив будет находиться в папке `dist/` в корне проекта. Сборку для размещения на хостинге следует выполнять с ключом `--prod`
-
 
